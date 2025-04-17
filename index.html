@@ -89,8 +89,8 @@
 <body>
   <div class="container">
     <header role="banner">
-      <h1>Quality-aware Masked Diffusion Transformer for</h1>
-      <h1>Enhanced Music Generation</h1>
+      <h1>Beyond CFG: Improving Diffusion based Text-to-Audio Generation with</h1>
+      <h1>Mixture of Guidance</h1>
       <p>Anonymous<sup>*1</sup></p>
       <p><sup>1</sup>Anonymous University</p>
     </header>
@@ -104,8 +104,8 @@
         At inference, the classifier-free guidance (CFG) is uniformly employed to improve the T2A generation quality, where the guidance of text condition is strengthened with a scaling factor.
         However, as discussed in recently proposed Autoguidance (AG), the nature of CFG inevitably sacrifices the diversity of generated results and may suffer from suboptimal performance.
         In this work, toward improving T2A generation quality in a training-free manner, we introduce an improved sampling algorithm: mixture of guidance (MoG).
-        Different from CFG and AG guiding diffusion models from a single direction, \textit{e.g.}, the condition or the bad version, we discuss their respective roles and investigate the methods to combine their advantages. 
-        Specifically, we present two strategies: \textit{parallel MoG} and \textit{hierarchical MoG}. We first show that CFG and AG can be employed in parallel to yield cumulative advantages.
+        Different from CFG and AG guiding diffusion models from a single direction, <i>e.g.</i>, the condition or the bad version, we discuss their respective roles and investigate the methods to combine their advantages. 
+        Specifically, we present two strategies: <i>parallel MoG</i> and <i>hierarchical MoG</i>. We first show that CFG and AG can be employed in parallel to yield cumulative advantages.
         Furthermore, we propose integrating them hierarchically which expresses the potential of their joint guidance term: bad version of unconditional model.  
         We experimentally demonstrate that: 1) MoG improves the generation quality of T2A without compromising the benefits of CFG; 2) given the same inference speed, MoG distinctively outperforms CFG across different sampling steps.</font>
       </p>
